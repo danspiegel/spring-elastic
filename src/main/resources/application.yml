@@ -1,0 +1,17 @@
+spring:
+  elasticsearch:
+    protocol: http
+    address: localhost
+    port: 9200
+    user: admin
+    password: 1234
+    timeout: 9000000
+    ignore:
+      certificate: false
+    enable: true
+  elastic:
+    search:
+      simulator:
+        profile: local
+
+
